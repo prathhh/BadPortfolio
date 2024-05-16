@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 77%;
+  height: 82%;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 150px;
+  font-weight: 700;
+}
+
+p.hd {
+  color: rgba(0, 229, 255, 0.847);
+  font-size: 20%;
+}
+
+.homeBtn {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.overlay {
+  position: absolute;
+  top: -72;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000cc;
+}

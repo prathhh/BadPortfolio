@@ -1,0 +1,22 @@
+@use "../abstracts/" as *;
+
+#hero-section {
+  margin: 1rem auto;
+  padding: 2rem 10rem;
+  background-image: url'(/src/assets/1123556.png)';
+
+  h1 {
+    font-weight: bolder;
+    font-size: 5em;
+    margin: 2rem 0;
+    color: white;
+
+  }
+
+  p {
+    margin: 1.5rem 0;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+  }
+}
